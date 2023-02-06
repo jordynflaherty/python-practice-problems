@@ -10,12 +10,12 @@ def num_divisible(lb, ub, p, q):
     # we ask you to compute in this exercise.
     n = 0
     for x in range(lb, ub+1):
-        if (x % q == 0 or x % p == 0
-            and not (x % p == 0 and x % q ==0)):
+        if ((x % q == 0 or x % p == 0)
+            and not (x % p == 0 and x % q == 0)):
             n += 1
 
     ### DO NOT MODIFY THE FOLLOWING LINE!
-    return 
+    return n
 
 
 #############################################################

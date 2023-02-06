@@ -7,8 +7,9 @@ def peep(p, e):
     Returns: True if peep = pp^e, False otherwise
     """
 
-    ### Replace pass with your code
-    pass
+    peep = str(p) + str(e) + str(e) + str(p)
+    pp = str(p) + str(p)
+    return int(peep) == (int(pp) ** e)
 
 
 #############################################################
